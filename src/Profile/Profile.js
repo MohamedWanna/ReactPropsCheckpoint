@@ -4,7 +4,9 @@ const Profile = (props) => {
 console.log(props)
     return( 
     <div>
-    {props.title}
+       <h1 style={{color:'blue',fontFamily:'Lucida,serif',fontSize:'1.4em',wordSpacing:'5.5px',letterSpacing:'0.75px'}}>
+        {props.title}
+       </h1>
     <table style={{border:'2px solid black',borderCollapse:'collapse',margin:'35px',width:'90%',tableLayout:'fixed',boxShadow: '5px 10px 18px #888888'}}> 
         <tr >
             <td style={{textAlign:'center', margin:'5px',padding:'5px',backgroundColor:'#EDAFAD',fontFamily: 'Lucida,serif',fontWeight:'bolder'}}>Full name</td>
